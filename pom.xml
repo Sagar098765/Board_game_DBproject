@@ -492,7 +492,7 @@
 
     <snapshotRepository>
         <id>maven-snapshots</id>
-        <urlhttp://13.236.12.190:8081/repository/maven-snapshots/</url>
+        <url>http://13.236.12.190:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 
 </distributionManagement>
