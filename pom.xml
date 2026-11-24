@@ -25,6 +25,9 @@
 <properties>
     <java.version>21</java.version>
     <jacoco.version>0.8.12</jacoco.version>
+    <sonar.projectKey>BoardGame</sonar.projectKey>
+    <sonar.projectName>BoardGame</sonar.projectName>
+    <sonar.host.url>http://16.112.255.60:9000</sonar.host.url>
 </properties>
 
 <!-- Dependencies -->
@@ -155,12 +158,12 @@
 <!-- Nexus -->
 <distributionManagement>
     <repository>
-        <id>maven-releases</id>
+        <id>nexus-releases</id>
         <url>http://16.112.255.60:8081/repository/maven-releases/</url>
     </repository>
 
     <snapshotRepository>
-        <id>maven-snapshots</id>
+        <id>nexus-snapshots</id>
         <url>http://16.112.255.60:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
